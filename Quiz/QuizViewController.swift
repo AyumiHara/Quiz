@@ -47,6 +47,8 @@ class QuizViewController: UIViewController {
             let index = Int(arc4random_uniform(UInt32(tmpArray.count)))
             quizArray.append(tmpArray[index])
             tmpArray.remove(at: index)
+            
+            
         }
         choiceQuiz()
     }
